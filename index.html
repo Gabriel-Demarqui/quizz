@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quizz</title>
+</head>
+<body>
+    <!-- pontuação -->
+    <h1 id="titulo">Quizz de Programação</h1>
+    <div id="container" class="hide">
+        <h2 id="parabens">Parabéns</h2>
+        <p id="display"><span></span></p>
+        <p>Você acertou <spaan id="correcao"></spaan> de <span id="questoes"></span> perguntas</p>
+        <button id="reiniciar">Refazer Quizz</button>
+    </div>
+
+<!-- Perguntas e respostas -->    
+    <div id="quizz">
+        <p id="perguntas"><span id="perguntas-numeros">1</span> - <span id="pergunta-texto">qual é</span></p>
+        <div id="responder">
+            <button><span class="letra">a</span> <span class="resposta-questao"></span> </button>
+            <button><span class="letra">b</span> <span class="resposta-questao"></span> </button>
+            <button><span class="letra">d</span> <span class="resposta-questao"></span> </button>
+            <button><span class="letra">c</span> <span class="resposta-questao"></span> </button>
+        </div>
+    </div>
+
+<!-- reposta -->
+<button class="resposta-templade hide"><span class="letra">a</span> <span class="resposta-questao"></span> </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
